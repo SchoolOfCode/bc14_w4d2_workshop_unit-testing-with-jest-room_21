@@ -4,11 +4,11 @@ In this workshop, each folder is a separate Node.js project (and has its own `pa
 
 It's time to flex those docs-reading muscles 💪📖 and use the Jest docs to figure out how to do basic testing in JavaScript.
 
-## Part 1
+## Part 1 ✅
 
-- `cd` into the [part-1](./part-1/) folder and follow the [Jest Getting Started](https://jestjs.io/docs/en/getting-started) guide to write your first test with Jest.
+- `cd` into the [part-1](./part-1/) folder and follow the [Jest Getting Started](https://jestjs.io/docs/en/getting-started) guide to write your first test with Jest. ✅
 
-- For our puposes, only follow the first bit of the guide and stop once you've been able to write and run a test. In other words, you don't need to complete the "Running from command line" section or the "Additional configuration" section.
+- For our puposes, only follow the first bit of the guide and stop once you've been able to write and run a test. In other words, you don't need to complete the "Running from command line" section or the "Additional configuration" section. ✅
 
 ## Part 2
 
