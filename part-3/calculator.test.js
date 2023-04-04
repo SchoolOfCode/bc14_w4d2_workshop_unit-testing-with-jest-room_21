@@ -28,7 +28,7 @@ test('adding -11 and 6 should return -5', function () {
     });
     // Subtracting 
 
-    test('subtracting 11 and 6 should return 5', function () {
+        test('subtracting 11 and 6 should return 5', function () {
         // Arrange
         // variables
         const actual = subtract(11, 6);
@@ -39,7 +39,7 @@ test('adding -11 and 6 should return -5', function () {
         //Assert
         expect(actual).toBe(expected);
         
-        });
+        }); 
     
         // test two 
 
@@ -131,5 +131,33 @@ test('squaring 5 should return 25', function () {
                        
     //Assert
     expect(actual).toBe(expected);
+                       
+   });
+
+// Calculate
+
+test('adding 2 and 3 should give 5', function () {
+    // Arrange
+   //variables    
+const actual = calculate("+", 2, 3);
+const expected = 5;
+    // Act     
+                       
+    //Assert
+    expect(actual).toBe(expected);
+                       
+   });
+
+test('expecting error message', function () {
+    // Arrange
+   //variables    
+const operator = ".";
+const actual = calculate(operator, 2, 3);
+//const expected = `Unsupported operator ${operator}`;
+    // Act     
+                       
+    //Assert
+expect(calculate(".", 2, 3)).toThrow(/^Unsupported operator ${operator}$/);
+expect(calculate(".", 2, 3)).toThrow(new Error(`Unsupported operator ${operator}`));
                        
    });
