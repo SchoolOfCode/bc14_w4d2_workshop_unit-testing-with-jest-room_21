@@ -161,3 +161,5 @@ expect(calculate(".", 2, 3)).toThrow(/^Unsupported operator ${operator}$/);
 expect(calculate(".", 2, 3)).toThrow(new Error(`Unsupported operator ${operator}`));
                        
    });
+
+   

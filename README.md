@@ -10,7 +10,7 @@ It's time to flex those docs-reading muscles 💪📖 and use the Jest docs to f
 
 - For our puposes, only follow the first bit of the guide and stop once you've been able to write and run a test. In other words, you don't need to complete the "Running from command line" section or the "Additional configuration" section. ✅
 
-## Part 2
+## Part 2 ✅
 
 - [Read the Jest docs about using matchers here](https://jestjs.io/docs/en/using-matchers) and talk it through with your partner to make sure you both understand the basics about how matchers work.
 
